@@ -81,12 +81,12 @@
         <text variable="title" form="short" quotes="true"/>
       </if>
       <else>
-        <text variable="title" form="short" font-style="italic" text-case="title"/>
+        <text variable="title" form="short" font-style="italic"/>
       </else>
     </choose>
   </macro>
   <macro name="container-title">
-    <text variable="container-title" font-style="italic" text-case="title"/>
+    <text variable="container-title" font-style="italic"/>
   </macro>
   <macro name="other-contributors">
     <choose>
