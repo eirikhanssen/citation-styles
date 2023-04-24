@@ -213,10 +213,10 @@
         <text variable="genre"/>
       </if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" font-style="italic" text-case="title"/>
+        <text variable="title" font-style="italic"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true" text-case="title"/>
+        <text variable="title" quotes="true"/>
       </else>
     </choose>
   </macro>
@@ -230,10 +230,10 @@
         </choose>
       </if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" font-style="italic" text-case="title"/>
+        <text variable="title" font-style="italic"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true" text-case="title"/>
+        <text variable="title" quotes="true"/>
       </else>
     </choose>
   </macro>
@@ -253,10 +253,10 @@
         </choose>
       </if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" form="short" font-style="italic" text-case="title"/>
+        <text variable="title" form="short" font-style="italic"/>
       </else-if>
       <else>
-        <text variable="title" form="short" quotes="true" text-case="title"/>
+        <text variable="title" form="short" quotes="true"/>
       </else>
     </choose>
   </macro>
@@ -299,7 +299,7 @@
         <choose>
           <if type="article-journal article-magazine" match="none">
             <!--title case every container title except magazines and journals-->
-            <text variable="container-title" font-style="italic" text-case="title"/>
+            <text variable="container-title" font-style="italic"/>
           </if>
           <else>
             <text variable="container-title" font-style="italic"/>
@@ -318,7 +318,7 @@
       <if type="legal_case" match="none">
         <choose>
           <if type="article-journal article-magazine" match="none">
-            <text variable="container-title" font-style="italic" text-case="title"/>
+            <text variable="container-title" font-style="italic"/>
           </if>
           <else>
             <text variable="container-title" font-style="italic"/>
