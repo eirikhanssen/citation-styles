@@ -72,7 +72,7 @@
         <names variable="translator"/>
         <choose>
           <if type="article-newspaper article-magazine" match="any">
-            <text variable="container-title" text-case="title" font-style="italic"/>
+            <text variable="container-title" font-style="italic"/>
           </if>
           <else>
             <text macro="title"/>
@@ -90,7 +90,7 @@
         <names variable="translator"/>
         <choose>
           <if type="article-newspaper article-magazine" match="any">
-            <text variable="container-title" text-case="title" font-style="italic"/>
+            <text variable="container-title" font-style="italic"/>
           </if>
           <else>
             <text macro="title"/>
